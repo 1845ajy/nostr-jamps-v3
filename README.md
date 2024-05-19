@@ -64,7 +64,7 @@ Stop all relays using command
 
 Make sure docker is installed in your system and updated 
 
-The provided docker compose file will build and complile the project. IF you wish to change the bind mounts you can edit the bind mounts in the docker-compose.yml file to the bind mounts you want. Currently both the relays (containers) have been bound to 8080 port and the host is connected to 7001 (nostr-rs-relay) 8001 (pyrelay) and 7002(rnostr) relay. 
+The provided docker compose file will build and complile the project. IF you wish to change the bind mounts you can edit the bind mounts in the docker-compose.yml file to the bind mounts you want. Currently both the relays (containers) have been bound to 8080 port and the host is connected to 7001 (nostr-rs-relay) ,7002(rnostr) relay and 7003 (pyrelay)  
 
 The command below will create docker images and start all the relays (containers) ⚠️ make sure to cd into the project first
 
@@ -72,8 +72,8 @@ The command below will create docker images and start all the relays (containers
 docker-compose up -d
 ```
 
-All the relays should be up and running now, you can access the relays in your browser at http://localhost:7001/, http://localhost:8001/
-and http://localhost:7002/
+All the relays should be up and running now, you can access the relays in your browser at http://localhost:7001/, http://localhost:7002/
+and http://localhost:7003/
 
 following command will stop all the realays 
 
@@ -117,7 +117,7 @@ These relays are now running in this host system and can be accessed only though
 
 Now is time to connect your client and see it at work !!
 
-connect your client to ws://localhost:7001/ , ws://localhost:8001/ or ws://localhost:7001/. you can add the client to other relays you might have put in the projct and would be aviable in a similar way with the ports you have setup. Send some messages, see the log get them in real time and find them in the database.
+connect your client to ws://localhost:7001/ , ws://localhost:7002/ or ws://localhost:7003/. you can add the client to other relays you might have put in the projct and would be aviable in a similar way with the ports you have setup. Send some messages, see the log get them in real time and find them in the database.
 
 ## Adding additional relays
 
