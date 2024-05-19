@@ -117,7 +117,13 @@ These relays are now running in this host system and can be accessed only though
 
 Now is time to connect your client and see it at work !!
 
-connect your client to ws://localhost:7001/ , ws://localhost:7002/ or ws://localhost:7003/. you can add the client to other relays you might have put in the projct and would be aviable in a similar way with the ports you have setup. Send some messages, see the log get them in real time and find them in the database.
+connect your client to 
+
+- `ws://localhost:7001/`
+- `ws://localhost:7002/`
+- `ws://localhost:7003/`
+
+ you can add the client to other relays you might have put in the projct and would be aviable in a similar way with the ports you have setup. Send some messages, see the log get them in real time and find them in the database.
 
 ## Adding additional relays
 
