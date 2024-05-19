@@ -43,7 +43,7 @@ cd into the directory for the nostr project
 Make sure your Bash has executable permissions. If it doesn't, you can grant execute permissions using the chmod command:
 
 ```shell
-chmod +x build_and_run.sh
+chmod +x run_relays.sh
 ```
 
 Run the bash script 
@@ -182,6 +182,6 @@ Relays that have been tested and discarded
 ## Further Improvememnt 
 
 For the improvement of the relay network more research needs to be done on the nips that needs to be
-implemented on the relays. https://github.com/hoytech/strfry is a relay that uses LMDB database than a SQlite databse (which is in the nostr rs relay) LMDB databses have high durability and data integrity.So implementing the LMDB databse stucture in the Nostr-rs-relay is recomended. THe rnostr relay in this project is a relay written in rust with a LMBD databse integrated so it would be a great start. PostgreSQL is also another great alternative that can be used in nostr relays.
+implemented on the relays. https://github.com/hoytech/strfry is a relay that uses LMDB database than a SQlite databse (which is in the nostr rs relay) LMDB databses have high durability and data integrity.So implementing the LMDB databse stucture in the Nostr-rs-relay is recomended. The rnostr relay in this project is a relay written in rust with a LMBD databse integrated so it would be a great start. PostgreSQL is also another great alternative that can be used in nostr relays.
 
 "# nostr-jamps-v3" 
