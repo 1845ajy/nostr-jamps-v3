@@ -158,9 +158,14 @@ services:
 
 Relays that have been tested and discarded
 
-https://github.com/coracle-social/bucket
-https://github.com/mattn/cagliostr
-https://github.com/barkyq/gnost-relay
+
+
+
+- [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
+- [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
+- [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
+
+
 https://github.com/lpicanco/knostr
 https://github.com/atdixon/me.untethr.nostr-relay
 https://github.com/Kukks/NNostr
