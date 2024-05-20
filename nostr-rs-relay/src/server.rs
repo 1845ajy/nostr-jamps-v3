@@ -197,7 +197,7 @@ async fn handle_web_request(
             Ok(Response::builder()
                 .status(200)
                 .header("Content-Type", "text/plain")
-                .body(Body::from("Please use a Nostr client to connect."))
+                .body(Body::from("Nostr-rs-relay is sucessfully running."))
                 .unwrap())
         }
         ("/metrics", false) => {
